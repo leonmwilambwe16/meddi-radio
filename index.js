@@ -10,7 +10,7 @@ connectDB()
 const app = express();
 const PORT = process.env.PORT ||5006 ;
 
-const frontendURL = 'http://127.0.0.1:5500'
+const frontendURL = 'https://t-radio.netlify.app'
 
 app.use(cors({
   origin: frontendURL,
